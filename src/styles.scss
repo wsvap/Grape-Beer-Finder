@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+}
+
+
+// TOP NAVIGATION
+.navbar {
+  padding: 3px 10px;
+
+  &.navbar-dark.bg-dark {
+    background-color: #000 !important;
+  }
+
+  .navbar-brand {
+    color: #98fc4d;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .form-inline {
+    color: #fff;
+    font-weight: 500;
+
+    .btn-logout {
+      color: #17270a;
+      font-weight: 500;
+      line-height: 26px;
+      margin-left: 10px;
+      background-color: #98fc4d;
+      border-color: #98fc4d;
+
+      &:hover {
+        background-color: #b8ff82;
+      }
+    }
+  }
+}
+// /TOP NAVIGATION
+
+// CONTENT
+main.content {
+  padding-top: 75px;
+}
+// /CONTENT
+
+// LOGIN
+.card-signin {
+  border-radius: 18px;
+}
+// /LOGIN
